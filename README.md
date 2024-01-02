@@ -1,4 +1,4 @@
-# Green Garden | Food Image Recogniion 👨‍💻
+# Green Garden | Food Image Recognion 👨‍💻
 NOTE: This implementation is included in a project carried out at VIA University College.
 
 ## Introduction 🥗🌾
@@ -71,6 +71,7 @@ Finally, the model can be asked for a specific image to predict which product is
 the same type. It can also give several possible answers but the answer with the highest percentage should always be taken into account.
 
 ![image](https://github.com/RubenMartinezSiso/GreenGarden-FoodImageRecognition/assets/79216573/13ef9aad-2918-48a9-b912-eb16d9e9a182)
+![image](https://github.com/RubenMartinezSiso/GreenGarden-FoodImageRecognition/assets/79216573/ddb86e93-01f6-4ff2-895d-ba641fc06a12)
 
 *Model errors* 🛑
 It is normal for the model to have errors in its predictions on some occasions. This is because the images are not of high quality and there are not a lot of them. One improvement that has been implemented is to add more images to the model and be much more different from each other. The training of the programme also depends on the number of times it has been trained and even on the power of the computer with which it has been developed. Therefore, despite the fact that changes have already been applied to improve the programme, there comes a point when, due to external factors, it is not possible to apply much more relevant improvements.
