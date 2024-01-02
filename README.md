@@ -52,21 +52,25 @@ The development of the image recognition programme requires an exhaustive proces
 This program uses a named artificial intelligence model, which is a set of algorithms and rules designed to perform a specific task. The model is trained using a training data set to learn patterns and relationships in the data and then used to make predictions or decisions based on new or unknown data.
 
 *Collect images and label them* 📸
+
 The model is going to be trained to recognise images of certain fruits and vegetables, so example images are needed for the model to learn from them. Specifically, images of avocados, potatoes, tomatoes, apples and bananas have been collected. These images have been taken directly with the computer camera manually. It is important to have a certain variety of image styles of the same product (different positions, lighting...), so the model will be prepared for different situations.
 
 The process of tagging consists of applying a label to the images so that they have an assigned answer. By labelling the image, the model will know which product it is and can be trained with them. A library (external program) has been used to hand label all the collected images.
 
 *Train the model* 🏋️‍♀️
+
 The model must be trained with the labelled images so that it knows which answer to associate with each image. In other words, the model should learn that the answer it should give to the image of, for example, a potato, is precisely "Potato" because that is the label that has been assigned to the image. At the time of testing, when the model is shown an image of a potato, it will know that the answer it should give is "Potato". It should be noted that the image shown during testing will not be the same as the image shown during training, even though it is also a potato. Just by their similarity, it should predict which label is most likely to be assigned to the image.
 
 This process can be imagined as that of preparing for an exam: the student learns which answer to give to each type of question, repeating the learning process several times to study it; at the time of the exam, the questions will be very similar to the ones he has studied and he can predict which is the most appropriate answer in each case. In this case, the model is the student, the questions are the images and the answers are the product name tags.
 
 *Test the model* 📚
+
 Once the model has been trained, the percentage of accuracy will be estimated by testing it with different images. It is shown a picture of a fruit or vegetable that it has not seen before and is asked which label the model thinks it belongs to and how confident it is of its decision. This prediction is compared with the actual answer to check whether or not they got it right.
 
 The "loss" in artificial intelligence training refers to the amount of error in the model's prediction compared to the actual values. It is a measure of how well the model is learning based on its predictions. The goal in training a machine learning model is to minimise the loss value, which means that the model is making more accurate predictions.
 
 *Detect objects* 🥔🍌
+
 Finally, the model can be asked for a specific image to predict which product is being shown and its confidence level. The model is able to recognise different products in the same image or several of
 the same type. It can also give several possible answers but the answer with the highest percentage should always be taken into account.
 
@@ -74,6 +78,7 @@ the same type. It can also give several possible answers but the answer with the
 ![image](https://github.com/RubenMartinezSiso/GreenGarden-FoodImageRecognition/assets/79216573/ddb86e93-01f6-4ff2-895d-ba641fc06a12)
 
 *Model errors* 🛑
+
 It is normal for the model to have errors in its predictions on some occasions. This is because the images are not of high quality and there are not a lot of them. One improvement that has been implemented is to add more images to the model and be much more different from each other. The training of the programme also depends on the number of times it has been trained and even on the power of the computer with which it has been developed. Therefore, despite the fact that changes have already been applied to improve the programme, there comes a point when, due to external factors, it is not possible to apply much more relevant improvements.
 
 The most common error is that the label "Avocado" is wrongly assigned to many products, especially in images of apples or potatoes. This is most likely due to the fact that the avocado in the images with which the model has been trained has a very uncharacteristic colour and shape, the lighting is not suitable for this case. This is not the case for the banana, which is usually very easy to get the label right because of its very specific shape and yellow colour.
