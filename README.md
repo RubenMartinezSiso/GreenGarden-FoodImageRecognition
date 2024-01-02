@@ -51,7 +51,7 @@ The development of the image recognition programme requires an exhaustive proces
 
 This program uses a named artificial intelligence model, which is a set of algorithms and rules designed to perform a specific task. The model is trained using a training data set to learn patterns and relationships in the data and then used to make predictions or decisions based on new or unknown data.
 
-*Collect images and label them* 📸 <br>
+*Collect images and label them* 📸
 
 The model is going to be trained to recognise images of certain fruits and vegetables, so example images are needed for the model to learn from them. Specifically, images of avocados, potatoes, tomatoes, apples and bananas have been collected. These images have been taken directly with the computer camera manually. It is important to have a certain variety of image styles of the same product (different positions, lighting...), so the model will be prepared for different situations.
 
