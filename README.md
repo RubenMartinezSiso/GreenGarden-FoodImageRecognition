@@ -1,5 +1,5 @@
 # Green Garden | Food Image Recognion 👨‍💻
-NOTE: This implementation is included in a project carried out at VIA University College.
+NOTE: This implementation is included in a project carried out at VIA University College (Horsens, Denmark).
 
 ## Introduction 🥗🌾
 In recent years, the consumption of organic and ecological food products has gained popularity, leading to increased demand and availability. This trend is driven by consumers seeking natural
